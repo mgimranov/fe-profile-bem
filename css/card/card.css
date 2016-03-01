@@ -1,0 +1,42 @@
+/* CARD */
+.card{
+  position:relative;
+  width:600px;
+  margin: 0 auto;
+  text-align:center;
+  border-radius: 5px;
+  background-color: #ffffff
+}
+
+.card__header {
+  height: 300px;
+  width: 100%;
+  background-color: #5b6770;
+  overflow: hidden;
+  background: url('../../img/header.jpg') center center no-repeat;
+  border-radius: 5px 5px 0 0;
+}
+
+.card__header-image{
+  margin: 0 auto;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 5px solid #FFFFFF;
+  margin-top: -90px;
+  overflow: hidden;
+}
+
+.card__content {
+  display: block;
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-bottom: 10px;  
+}
+
+/* BUTTON. SOCIAL LINK, HOVER*/
+.card__action{
+  position: relative;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}

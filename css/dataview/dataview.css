@@ -1,0 +1,26 @@
+/* GRID TYPE */
+.dataview__grid {
+  display:table; 
+  width:100%; 
+  table-layout:fixed; 
+  border-collapse:collapse;
+}
+
+.dataview__grid li { 
+  display:table-cell; 
+  padding: 5px;
+  text-align:center;  
+  border: none; 
+}
+
+/* LIST TYPE */
+.dataview__list {
+  padding-left: 0px;
+}
+
+.dataview__list li {
+  text-align: left;
+  display: block;
+  padding: 10px;
+}
+
