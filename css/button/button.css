@@ -1,0 +1,31 @@
+/* BUTTON */
+
+.btn{
+  display: inline-block;
+  height: 64px;
+  width: 64px;
+  vertical-align: middle;
+  line-height: 64px;
+  color: #FFFFFF;
+}
+
+.btn__floating {
+    display: inline-block;
+    color: #fff;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    width: 64px;
+    height: 64px;
+    line-height: 64px;
+    padding: 0;
+    background-color: #5b6770;
+    border-radius: 50%;
+    cursor: pointer;
+    vertical-align: middle;
+}
+
+.btn__floating:hover,.btn:hover{
+  box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+  opacity: .8;
+}
